@@ -34,20 +34,4 @@ graph LR
     B --> E[Azure Translator];
     B --> F[External Data APIs];
     B --> G[SMS Service];
----
-### 📁 Project Structure
-AgriAssist-App/
-├── mobile-app/                 # React Native Frontend
-│   ├── assets/                 # Icons, images, translations
-│   └── src/
-│       ├── components/         # Reusable UI components
-│       ├── screens/            # App screens
-│       ├── services/           # API communication
-│       └── utils/              # Helper functions
-├── backend-api/                # Node.js Backend
-│   ├── controllers/            # Request handlers
-│   ├── models/                 # Database models
-│   ├── routes/                 # API endpoints
-│   ├── services/               # Azure integration
-│   └── middleware/             # Auth & upload
-└── docs/                       # Documentation
+
